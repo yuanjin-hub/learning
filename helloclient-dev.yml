@@ -1,0 +1,16 @@
+server:
+  port: 10001
+
+spring:
+  application:
+    name: hello-client
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10000/eureka/
+
+
+itboy:
+  name: yuanjin
+  age: 21
